@@ -93,6 +93,10 @@
 # # a,b,c = 100,90,100
 # # print(a if a>b and a>c else b if b>a and b>c else c)
 
+# Ineuron Solution
+a,b,c = int(input()), int(input()), int(input())
+print((a if a>c else c ) if a>b else (b if b>c else c))
+
 
 # # TODO:Question 11 
 # # a = int(input('Enter Month Number:'))
