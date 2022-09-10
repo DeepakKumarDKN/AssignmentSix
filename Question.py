@@ -94,8 +94,8 @@
 # # print(a if a>b and a>c else b if b>a and b>c else c)
 
 # Ineuron Solution
-a,b,c = int(input()), int(input()), int(input())
-print((a if a>c else c ) if a>b else (b if b>c else c))
+# a,b,c = int(input()), int(input()), int(input())
+# print((a if a>c else c ) if a>b else (b if b>c else c))
 
 
 # # TODO:Question 11 
@@ -110,9 +110,12 @@ print((a if a>c else c ) if a>b else (b if b>c else c))
 # #   print('Invalid Month Number')
 
 # # TODO: Question 12
+# I neuron Solution
 # a = 10+50j
+a = complex(input('Enter the complex Number:'))
+print(int(a.real) if a.real>a.imag else int(a.imag))
 
-# # print(int(a.real) if a.real>a.imag else int(a.imag))
+
 # # if int((a.real)) > int((a.imag)):
 # #   print(int(a.real),'real part is greater')
 # # else:
